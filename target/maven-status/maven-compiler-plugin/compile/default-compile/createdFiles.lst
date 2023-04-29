@@ -13,12 +13,14 @@ com\portfolio\mgb\Entity\Experiencia.class
 com\portfolio\mgb\Security\jwt\JwtTokenFilter.class
 com\portfolio\mgb\Entity\Persona.class
 com\portfolio\mgb\Entity\Hys.class
+com\portfolio\mgb\Entity\Proyecto.class
 com\portfolio\mgb\Repository\RHys.class
 com\portfolio\mgb\Security\Dto\NuevoUsuario.class
 com\portfolio\mgb\Dto\dtoPersona.class
 com\portfolio\mgb\Dto\dtoExperiencia.class
 com\portfolio\mgb\Entity\Educacion.class
 com\portfolio\mgb\Service\SEducacion.class
+com\portfolio\mgb\Controler\CProyecto.class
 com\portfolio\mgb\Security\Service\UserDetailsImpl.class
 com\portfolio\mgb\Repository\RExperiencia.class
 com\portfolio\mgb\Security\Entity\UsuarioPrincipal.class
@@ -26,8 +28,10 @@ com\portfolio\mgb\Dto\dtoHys.class
 com\portfolio\mgb\Security\Dto\LoginUsuario.class
 com\portfolio\mgb\Security\Controller\AuthController.class
 com\portfolio\mgb\Security\Entity\Usuario.class
+com\portfolio\mgb\Dto\dtoProyecto.class
 com\portfolio\mgb\Security\jwt\JwtEntryPoint.class
 com\portfolio\mgb\Security\MainSecurity.class
+com\portfolio\mgb\Service\SProyecto.class
 com\portfolio\mgb\Controler\PersonaController.class
 com\portfolio\mgb\Controler\CHys.class
 com\portfolio\mgb\Dto\dtoEducacion.class
@@ -36,4 +40,5 @@ com\portfolio\mgb\Service\SExperiencia.class
 com\portfolio\mgb\Repository\IPersonaRepository.class
 com\portfolio\mgb\Security\jwt\JwtProvider.class
 com\portfolio\mgb\Security\Enums\RolNombre.class
+com\portfolio\mgb\Repository\RProyecto.class
 com\portfolio\mgb\Security\Service\RolService.class

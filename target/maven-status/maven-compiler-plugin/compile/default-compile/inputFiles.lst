@@ -1,5 +1,6 @@
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Controler\CEducacion.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Security\Entity\UsuarioPrincipal.java
+E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Controler\CProyecto.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Controler\PersonaController.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Service\SHys.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Dto\dtoPersona.java
@@ -10,6 +11,7 @@ E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Securi
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Controler\CExperiencia.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Security\Dto\JwtDto.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Security\Repository\iRolRepository.java
+E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Entity\Proyecto.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Security\Entity\Usuario.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Entity\Persona.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Security\MainSecurity.java
@@ -29,10 +31,13 @@ E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Securi
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\MgbApplication.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Security\Service\UsuarioService.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Repository\IPersonaRepository.java
+E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Repository\RProyecto.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Security\Controller\AuthController.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Entity\Educacion.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Security\jwt\JwtTokenFilter.java
+E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Dto\dtoProyecto.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Security\Repository\iUsuarioRepository.java
+E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Service\SProyecto.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Entity\Experiencia.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Entity\Hys.java
 E:\Proyecto-FrontEnd\portFolio_BackEnd_lv\src\main\java\com\portfolio\mgb\Security\jwt\JwtEntryPoint.java
