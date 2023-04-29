@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PersonaController {
     @Autowired
     ImpPersonaService personaService;
-    @GetMapping("detail/{id}")
+    @GetMapping("/detail/{id}")
     public ResponseEntity<Persona> getById(@PathVariable("id")int id){
         if(!personaService.existsById(id)){
             return new ResponseEntity(new Mensaje("No existe el id"), HttpStatus.BAD_REQUEST);

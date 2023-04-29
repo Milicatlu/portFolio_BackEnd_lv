@@ -30,11 +30,11 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/proyecto")
-@CrossOrigin(origins = {"http://localhost:4200","https://frontendlv8.web.app"})
+@CrossOrigin(origins = "https://frontendlv8.web.app")
 public class CProyecto {
     @Autowired
     SProyecto sProyecto;
-    @GetMapping("detail/{id}")
+    @GetMapping("/detail/{id}")
     
     public ResponseEntity<Proyecto> getById(@PathVariable("id")int id){
         if(!sProyecto.existsById(id)){
@@ -66,7 +66,7 @@ public class CProyecto {
      sProyecto.save(proyecto);
      return new ResponseEntity(new Mensaje("Proyecto editado"), HttpStatus.OK);
     }
-     @DeleteMapping("delete/{id}")
+     @DeleteMapping("/delete/{id}")
  public ResponseEntity<?> delete(@PathVariable("id")int id){
      if(!sProyecto.existsById(id)){
          return new ResponseEntity(new Mensaje("No existe el id"), HttpStatus.NOT_FOUND);
@@ -74,7 +74,7 @@ public class CProyecto {
      sProyecto.delete(id);
      return new ResponseEntity(new Mensaje("Proyecto ELiminado"), HttpStatus.OK);
  }
- @PostMapping("create")
+ @PostMapping("/create")
  public ResponseEntity<?> create(@RequestBody dtoProyecto dtoproyecto){
      if(StringUtils.isBlank(dtoproyecto.getNombreP())){
          return new ResponseEntity(new Mensaje("El nombre es obligatorio"),HttpStatus.BAD_REQUEST);
